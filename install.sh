@@ -50,8 +50,9 @@ sudo apt install proxychains4 # (harry’s favorite)
 # above didn’t work so i moved the snap version to the bottom
 
 
-sudo apt install evil-winrm # (colin’s favorite)
-
+# sudo apt install evil-winrm # (colin’s favorite)
+sudo apt-get install ruby-dev
+sudo gem install evil-winrm # (evil-winrm)
 
 sudo apt-get install nmap # (nmap)
 
