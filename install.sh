@@ -42,7 +42,9 @@ sudo apt install wordlists # (another option for wordlists (maybe?))
 
 # sudo apt install mimikatz # (kat)
 wget https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip
-unzip mimikatz_trunk.zip # (mimikatz)
+mkdir mimikatz
+unzip mimikatz_trunk.zip -d mimikatz 
+sudo rm -r mimikatz_trunk.zip # (mimikatz)
 
 sudo apt install proxychains4 # (harry’s favorite)
 
