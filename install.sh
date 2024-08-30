@@ -40,8 +40,9 @@ gunzip rockyou.txt.gz # (unzips rockyou)
 sudo apt install wordlists # (another option for wordlists (maybe?))
 
 
-sudo apt install mimikatz # (kat)
-
+# sudo apt install mimikatz # (kat)
+wget https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip
+unzip mimikatz_trunk.zip # (mimikatz)
 
 sudo apt install proxychains4 # (harry’s favorite)
 
@@ -51,6 +52,7 @@ sudo apt install proxychains4 # (harry’s favorite)
 
 
 # sudo apt install evil-winrm # (colin’s favorite)
+sudo gem install winrm winrm-fs stringio logger fileutils
 sudo apt-get install ruby-dev
 sudo gem install evil-winrm # (evil-winrm)
 
