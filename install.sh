@@ -17,7 +17,7 @@ sudo apt install python3 python3-pip # (python and pip)
 sudo apt install git # (git)
 
 
-sudo apt install chisel # (ryan’s favorite)
+curl https://i.jpillora.com/chisel! | bash # (ryan’s favorite)
 
 
 sudo apt install sublist3r # (subdomain stuff)
